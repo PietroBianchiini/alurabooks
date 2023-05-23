@@ -1,0 +1,85 @@
+.carousel__title {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    font-weight: 700;
+    padding: 1.2rem;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    padding: 0.6rem 0 0.8rem 0;
+}
+
+.card {
+    background: var(--branco);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: var(--fonte-principal);
+    color: black;
+    margin: 1.25rem 1.5rem;
+    padding: 1rem;
+}
+
+.card__description {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons__iten {
+    margin: 0 0.5rem;
+}
+
+.description__title {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.description__title-book {
+    color: var(--azul);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0.5rem 0;
+}
+
+.description {
+    font-size: 14px;
+}
+
+.description__image {
+    margin-left: 1rem;
+}
+
+.description__image-star {
+    margin-bottom: 0.5rem;
+}
+
+.button__anchor {
+    background-color: var(--laranja);
+    padding: 0.7rem 2.22rem;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
