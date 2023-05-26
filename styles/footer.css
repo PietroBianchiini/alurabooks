@@ -7,3 +7,41 @@ hr {
     padding: 1rem 1.5rem;
     font-family: var(--fonte-principal);
 }
+
+.list-rodape {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .rodape__title {
+        font-size: 24px;
+    }
+
+    .list-rodape {
+        display: block;
+    }
+
+    .list-rodape__title {
+        color: var(--cinza-claro);
+        font-size: 14px;
+        margin-bottom: 1rem;
+    }
+
+    .list-rodape__iten {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 0;
+        font-size: 14px;
+    }
+
+    .list-rodape__link {
+        color: var(--cinza);
+        text-decoration: none;
+        padding-left: 0.5rem;
+    }
+}
