@@ -88,6 +88,7 @@
     }
     
     .options__iten {
+        font-family: var(--fonte-principal);
         padding: 0 2rem;
         text-transform: uppercase;
     }
